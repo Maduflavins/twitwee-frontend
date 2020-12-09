@@ -47,7 +47,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/twitwee/api/v1': {
-        target: 'http://localhost:5500',
+        target: 'https://twitweeapp.herokuapp.com/',
         changeOrigin: true
       }
     },

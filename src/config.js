@@ -1,1 +1,1 @@
-export const BASE_URL = '/twitwee/api/v1'
+export const BASE_URL = 'https://twitweeapp.herokuapp.com/'

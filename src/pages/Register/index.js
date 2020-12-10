@@ -73,6 +73,7 @@ export default () => {
     });
 
     } catch (err) {
+      console.log(err)
       setNotification({
         action: ADD_NOTI,
         data: {
